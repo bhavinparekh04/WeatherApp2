@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="fill">
+
+
+
+    <TextView
+        android:id="@+id/forecasttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/common_signin_btn_light_text_default"
+         />
+
+    <TextView
+        android:id="@+id/forecastdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/condIcon"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/common_signin_btn_light_text_default"
+        />
+    <ImageView
+        android:id="@+id/condIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/condIcon"
+        android:textColor="@color/common_signin_btn_light_text_default"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/temp"
+        android:textColor="@color/common_signin_btn_light_text_default"
+        android:layout_marginLeft="15dp"
+        />
+
+
+</LinearLayout>
